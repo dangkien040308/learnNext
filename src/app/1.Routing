@@ -1,0 +1,12 @@
+#1 Routing 
+- Nextjs has a file-system based routing mechanism 
+- URL path that users can access in the browser are defined by files and folders in your codebase
+
+* Routing conventions
+- All routes must be placed inside the app folders
+- Every file that corresponds to a route must be named page.js or page.tsx 
+- Every folder corresponds to a path segment in the browser URL
+
+* Dynamic Route => [id] => {params.id}
+
+* Catch all segment : docs / [...slug] => it will match any URL that contains the docs segment in the path 

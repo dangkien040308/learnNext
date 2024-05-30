@@ -1,0 +1,7 @@
+# Route Group 
+- Allow us to logically group our routes and project files without affecting the URL path structure
+Let's implement authentication routes 
+ - Register 
+ - Login 
+ - Forgot password
+-> create a folder with () -> omitted from the url path
